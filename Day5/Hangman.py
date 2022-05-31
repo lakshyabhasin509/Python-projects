@@ -79,7 +79,7 @@ while end_game == False:
     if lives==0 or "_" not in blank_list:
         end_game=True
 
-
+    # Clear.clear()
     for i in blank_list:
         print(i,end=" ")
     print(stages[lives])
